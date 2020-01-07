@@ -1,43 +1,10 @@
-<div class="navigation">
-  <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
-  <label for="navi-toggle" class="navigation__button">
-      <span class="navigation__icon">&nbsp;</span>
-  </label>
-
-  <div class="navigation__background">&nbsp;</div>
-
-  <nav class="navigation__nav">
-      <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link"><span></span>About Natous</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span></span>Your benfits</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span></span>Popular tours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span></span>Stories</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span></span>Book now</a></li>
-          </ul>
-  </nav>
-</div>
-
-<header class="header">
-  <div class="header__logo-box">
-      <img src="../assets/logo-white.png" alt="Logo" class="header__logo">
-  </div>
-
-  <div class="header__text-box">
-      <h1 class="heading-primary">
-          <span class="heading-primary--main">Izunagaoka</span>
-          <span class="heading-primary--sub">is where life happens</span>
-      </h1>
-
-      <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
-  </div>
-</header>
-
+<app-nav></app-nav>
+<app-header></app-header>
 <main>
   <section class="section-about">
       <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
-              Exciting tours for adventurous people
+            Exciting tours for adventurous people 
           </h2>
       </div>
 
@@ -59,23 +26,23 @@
           <div class="col-1-of-2">
               <div class="composition">
 
-                  <img srcset="../assets/nat-1.jpg 300w, ../assets/nat-1-large.jpg 1000w"
+                  <img srcset="../assets/nat-1.jpg 300w, assets/nat-1-large.jpg 1000w"
                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                        alt="Photo 1"
                        class="composition__photo composition__photo--p1"
-                       src="../assets/nat-1-large.jpg">
+                       src="assets/nat-1-large.jpg">
 
-                  <img srcset="../assets/nat-2.jpg 300w, ../assets/nat-2-large.jpg 1000w"
+                  <img srcset="../assets/nat-2.jpg 300w, assets/nat-2-large.jpg 1000w"
                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                        alt="Photo 2"
                        class="composition__photo composition__photo--p2"
-                       src="../assets/nat-2-large.jpg">
+                       src="assets/nat-2-large.jpg">
 
-                  <img srcset="../assets/nat-3.jpg 300w, ../assets/nat-3-large.jpg 1000w"
+                  <img srcset="assets/nat-3.jpg 300w, assets/nat-3-large.jpg 1000w"
                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                        alt="Photo 3"
                        class="composition__photo composition__photo--p3"
-                       src="../assets/nat-3-large.jpg">
+                       src="assets/nat-3-large.jpg">
 
               </div>
           </div>
@@ -241,8 +208,8 @@
   <section class="section-stories">
       <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
-              <source src="../assets/video.mp4" type="video/mp4">
-              <source src="../assets/video.webm" type="video/webm">
+              <source src="assets/video.mp4" type="video/mp4">
+              <source src="assets/video.webm" type="video/webm">
               Your browser is not supported!
           </video>
       </div>
@@ -256,7 +223,7 @@
       <div class="row">
           <div class="story">
               <figure class="story__shape">
-                  <img src="../assets/nat-8.jpg" alt="Person on a tour" class="story__img">
+                  <img src="assets/nat-8.jpg" alt="Person on a tour" class="story__img">
                   <figcaption class="story__caption">Mary Smith</figcaption>
               </figure>
               <div class="story__text">
@@ -273,7 +240,7 @@
       <div class="row">
           <div class="story">
               <figure class="story__shape">
-                  <img src="../assets/nat-9.jpg" alt="Person on a tour" class="story__img">
+                  <img src="assets/nat-9.jpg" alt="Person on a tour" class="story__img">
                   <figcaption class="story__caption">Jack Wilson</figcaption>
               </figure>
               <div class="story__text">
@@ -345,9 +312,9 @@
   <div class="footer__logo-box">
 
       <picture class="footer__logo">
-          <source srcset="../assets/logo-green-small-1x.png 1x, ../assets/logo-green-small-2x.png 2x"
+          <source srcset="assets/logo-green-small-1x.png 1x, assets/logo-green-small-2x.png 2x"
                   media="(max-width: 37.5em)">
-          <img srcset="../assets/logo-green-1x.png 1x, ../assets/logo-green-2x.png 2x" alt="Full logo" src="../assets/logo-green-2x.png">
+          <img srcset="assets/logo-green-1x.png 1x, assets/logo-green-2x.png 2x" alt="Full logo" src="assets/logo-green-2x.png">
       </picture>
 
 
@@ -377,8 +344,8 @@
 <div class="popup" id="popup">
   <div class="popup__content">
       <div class="popup__left">
-          <img src="../assets/nat-8.jpg" alt="Tour photo" class="popup__img">
-          <img src="../assets/nat-9.jpg" alt="Tour photo" class="popup__img">
+          <img src="assets/nat-8.jpg" alt="Tour photo" class="popup__img">
+          <img src="assets/nat-9.jpg" alt="Tour photo" class="popup__img">
       </div>
       <div class="popup__right">
           <a href="#section-tours" class="popup__close">&times;</a>
